@@ -1,9 +1,10 @@
 ---
 layout: post
-title: You're up and running!
+title: 강남고물상
+published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+강남이나임나이;ㅁ나이;ㅁ나이;
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
