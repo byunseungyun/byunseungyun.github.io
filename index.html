@@ -193,7 +193,17 @@ published: true
 
 </div>
 <!-- End Gallery -->
+<div class="p-r f-l w-100">
 
+{% for post in site.related_posts limit:13 %}
+  {% if post.thumbnail_image %}
+    <a href="{{ site.baseurl }}{{ post.url }}" style="background-image: url({{ site.baseurl }}{{ post.thumbnail_image }})" alt="{{ post.title }}" class="thumbnail"></a>
+  {% else %}
+    {{ post.content | thumbnail_url: post.url, post.title }}
+  {% endif %}
+{% endfor %}
+</div>
 <!-- Start Map -->
-<!-- <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div> -->
+<!-- <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>">
+</div> -->
 <!-- End Map -->
