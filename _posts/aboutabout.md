@@ -1,6 +1,0 @@
----
-published: false
----
-###about 입니다.
-
-
