@@ -5,6 +5,8 @@ keywords: 각종 고물고가매입,최저비용철거,이사,창고정리,무�
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://qustmddus.com" # the name of your domain
 logo_url: svg/min/logo.svg
+author:
+    name: 동작구고물상
 
 # Hero
 hero: 
