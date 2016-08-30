@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "강남고물상"
+date:   2016-08-29 11:51:39 +0900
+categories: 1/
+---
+강남 고물상 입니다.
+
+`강남고물상입니다.`
+
+{% highlight ruby %}
+여기다가 소스넣으면 개이득
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
