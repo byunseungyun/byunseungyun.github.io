@@ -32,22 +32,7 @@ published: true
     <div class="col-sm-6">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
         <h3>영업시간</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Monday – Friday</td>
-                    <td>{{ site.monday_friday }}</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>{{ site.saturday }}</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>{{ site.sunday }}</td>
-                </tr>
-            </tbody>
-        </table>
+        <h3><strong>연중무휴</strong></h3>
     </div>
     <!-- <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
@@ -90,8 +75,13 @@ published: true
                   </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <img src="img/about.jpg" alt="...">
+            <div class="col-sm-6 b-gy1">
+                <div class="p-r f-l w-100 h-200px">
+                    <div class="p-r f-l w-100 cen-y t-ce">
+                        <span class="p-r t-70px c-bl">차량 항시 대기</span>
+                    </div>
+                </div>
+                <!-- <img src="img/about.jpg" alt="..."> -->
             </div>
         </div>
     </div>
@@ -101,7 +91,7 @@ published: true
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Treatments</h2>
+        <h2 class="section-title">업무안내</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}
@@ -119,7 +109,7 @@ published: true
 <!-- End Treatments -->
 
 <!-- Start Our team -->
-<div id="team" class="team"> 
+<!-- <div id="team" class="team"> 
     <h2 class="section-title">Our Team</h2> 
     <div id="team-carousel">
     {% for member in site.data.team %}
@@ -128,20 +118,20 @@ published: true
                 <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
                 <h4>{{ member.name }}</h4>
             </div>
-<!--             <div class="expandable-box-bottom">
+            <div class="expandable-box-bottom">
                 <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
                 </a>
                 <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
                 </a>
-            </div> -->
+            </div>
         </div>
     {% endfor %}
     </div>
-</div>
+</div> -->
 <!-- End Our team -->
 
 <!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+<!-- <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
@@ -161,7 +151,7 @@ published: true
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- End Testimonials -->
 
 <!-- Start Gallery -->
