@@ -1,3 +1,9 @@
-User-agent:Yeti
-Disallow:/private*/
+User-agent: *
+Allow: /
 Sitemap:http://qustmddus.com/sitemap.xml
+
+User-agent:Yeti
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
