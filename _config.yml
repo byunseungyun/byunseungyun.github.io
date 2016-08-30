@@ -1,8 +1,9 @@
 # Site settings
 title: 동작구고물상
 description: 동작구고물상, 고물, 폐기물처리, 페기물
+keywords: 각종 고물고가매입,최저비용철거,이사,창고정리,무료방문 견적 전문업체
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "http://qustmddus.com" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
