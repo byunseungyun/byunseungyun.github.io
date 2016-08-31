@@ -1,9 +1,9 @@
 User-agent: *
-Allow: /
+Allow:/
 Sitemap:http://qustmddus.com/sitemap.xml
 
 User-agent:Yeti
-Allow: /
+Allow:/
 
 User-agent: Mediapartners-Google
-Allow: /
+Allow:/
