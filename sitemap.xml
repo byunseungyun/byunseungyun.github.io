@@ -1,5 +1,6 @@
 ---
 layout: null
+published: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -10,7 +11,7 @@ layout: null
       <priority>1.0000</priority>
     </url>
     <url>
-      <loc>{{ site.url }}/rss</loc>
+      <loc>{{ site.url }}/feed.xml</loc>
       <lastmod>{{ site.time | date_to_rfc822 }}</lastmod>
       <changefreq>always</changefreq>
       <priority>1.0000</priority>
