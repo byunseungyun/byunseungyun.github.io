@@ -1,28 +1,31 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://webmastertool.naver.com">
-  <id>{{ site.url }}</id>
-  <title><![CDATA[ {{ site.title | xml_escape }} ]]></title>
+  <id>http://qustmddus.com</id>
+  <title><![CDATA[ 동작구고물상 - 저렴한비용철거 ]]></title>
   <author>
-    <name>{{ site.author.name | xml_escape }}</name>
+    <name>동작구고물상</name>
   </author>
 
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <link rel="site" href="{{ site.url }}" />
+  <updated>2016-08-31T21:11:25+09:00</updated>
+  <link rel="site" href="http://qustmddus.com" />
 
-  {% for post in site.posts limit:20 %}
+  
   <entry>
-    <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
-    <title><![CDATA[ {{ post.title | xml_escape }} ]]></title>
+    <id>http://qustmddus.com/posts/2016/08/31/post.html</id>
+    <title><![CDATA[ 폐기물이란? ]]></title>
     <author>
-      <name>{{ site.author.name | xml_escape }}</name>
+      <name>동작구고물상</name>
     </author>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <published>{{ post.date | date_to_xmlschema }}</published>
-    <link rel="via" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" />
-    <content type="html"><![CDATA[  {{ post.content | xml_escape }} ]]></content>
+    <updated>2016-08-31T10:00:00+09:00</updated>
+    <published>2016-08-31T10:00:00+09:00</published>
+    <link rel="via" href="http://qustmddus.com/posts/2016/08/31/post.html" />
+    <content type="html"><![CDATA[  &lt;p&gt;이용 할 수 없을 정도로 하락한 물질 또는 필요하지 않는 물질 을 뜻 합니다.
+폐기물에 대한 정보는 &lt;a href=&quot;http://www.me.go.kr/gg/web/index.do?menuId=2272#water_location1&quot;&gt;환경부&lt;/a&gt; 을 참고 하였습니다.
+폐기물이란 &lt;code class=&quot;highlighter-rouge&quot;&gt;생활폐기물&lt;/code&gt; 과 &lt;code class=&quot;highlighter-rouge&quot;&gt;사업폐기물&lt;/code&gt;로 분류가 됩니다.
+공장에서 배출되는 폐기물들을 사업폐기물이라 하고
+그 외에 폐기물을 생활폐기물이라 합니다.&lt;/p&gt;
+
+ ]]></content>
   </entry>
-  {% endfor %}
+  
 </feed>

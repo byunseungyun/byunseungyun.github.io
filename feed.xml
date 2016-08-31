@@ -1,35 +1,33 @@
----
-layout: null
-published: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <description>{{ site.description | xml_escape }}</description>
+    <title>동작구고물상 - 저렴한비용철거</title>
+    <link>http://qustmddus.com/</link>
+    <description>저렴한비용철거,공짜방문 견적 전문업체, 각종고물고가매입, 최저비용철거,이사,창고정리,무료방문 견적 전문업체</description>
     <language>ko</language>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    <managingEditor>{{site.title}}</managingEditor>
-    {% for post in site.posts limit:10 %}
+    <pubDate>Wed, 31 Aug 2016 21:11:25 +0900</pubDate>
+    <generator>Jekyll v3.2.1</generator>
+    <managingEditor>동작구고물상 - 저렴한비용철거</managingEditor>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        {% if post.excerpt %}
-        	<description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-        	<description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        <guid>{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        {% endfor %}
+        <title>폐기물이란?</title>
+        <link>http://qustmddus.com/posts/2016/08/31/post.html</link>
+        
+        	<description>&lt;p&gt;이용 할 수 없을 정도로 하락한 물질 또는 필요하지 않는 물질 을 뜻 합니다.
+폐기물에 대한 정보는 &lt;a href=&quot;http://www.me.go.kr/gg/web/index.do?menuId=2272#water_location1&quot;&gt;환경부&lt;/a&gt; 을 참고 하였습니다.
+폐기물이란 &lt;code class=&quot;highlighter-rouge&quot;&gt;생활폐기물&lt;/code&gt; 과 &lt;code class=&quot;highlighter-rouge&quot;&gt;사업폐기물&lt;/code&gt;로 분류가 됩니다.
+공장에서 배출되는 폐기물들을 사업폐기물이라 하고
+그 외에 폐기물을 생활폐기물이라 합니다.&lt;/p&gt;
+
+</description>
+        
+        
+        
+        <category>posts/</category>
+        <guid>http://qustmddus.com/posts/2016/08/31/post.html</guid>
+        <pubDate>Wed, 31 Aug 2016 10:00:00 +0900</pubDate>
+        
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
