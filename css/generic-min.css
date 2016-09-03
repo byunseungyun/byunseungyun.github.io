@@ -1,0 +1,26 @@
+.p-r { position: relative !important; }
+.f-l {float: left !important;}
+
+.w-100 { width: 100% !important; }
+
+
+.h-min-300px{ min-height: 300px !important; }
+.h-200px { height: 200px !important; }
+.h-300px { height: 300px !important; }
+
+.cen-y {
+  position: relative !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  -webkit-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+}
+
+.t-ce {text-align: center !important; }
+
+.p-t-70 { padding-top: 70px !important; }
+.t-70px{font-size: 70px !important;}
+
+.c-bl{ color: rgb(74, 144, 226) !important; }
+.b-gy1{ background: rgb(209,211,212)!important; }
+.b-we{ background: rgb(255,255,255) !important; }
